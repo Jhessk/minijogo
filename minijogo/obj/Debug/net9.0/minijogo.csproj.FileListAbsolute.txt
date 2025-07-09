@@ -1,0 +1,14 @@
+C:\Users\ALUNO.LABCHARURI\Desktop\manhaj2\minijogo\minijogo\bin\Debug\net9.0\minijogo.exe
+C:\Users\ALUNO.LABCHARURI\Desktop\manhaj2\minijogo\minijogo\bin\Debug\net9.0\minijogo.deps.json
+C:\Users\ALUNO.LABCHARURI\Desktop\manhaj2\minijogo\minijogo\bin\Debug\net9.0\minijogo.runtimeconfig.json
+C:\Users\ALUNO.LABCHARURI\Desktop\manhaj2\minijogo\minijogo\bin\Debug\net9.0\minijogo.dll
+C:\Users\ALUNO.LABCHARURI\Desktop\manhaj2\minijogo\minijogo\bin\Debug\net9.0\minijogo.pdb
+C:\Users\ALUNO.LABCHARURI\Desktop\manhaj2\minijogo\minijogo\obj\Debug\net9.0\minijogo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALUNO.LABCHARURI\Desktop\manhaj2\minijogo\minijogo\obj\Debug\net9.0\minijogo.AssemblyInfoInputs.cache
+C:\Users\ALUNO.LABCHARURI\Desktop\manhaj2\minijogo\minijogo\obj\Debug\net9.0\minijogo.AssemblyInfo.cs
+C:\Users\ALUNO.LABCHARURI\Desktop\manhaj2\minijogo\minijogo\obj\Debug\net9.0\minijogo.csproj.CoreCompileInputs.cache
+C:\Users\ALUNO.LABCHARURI\Desktop\manhaj2\minijogo\minijogo\obj\Debug\net9.0\minijogo.dll
+C:\Users\ALUNO.LABCHARURI\Desktop\manhaj2\minijogo\minijogo\obj\Debug\net9.0\refint\minijogo.dll
+C:\Users\ALUNO.LABCHARURI\Desktop\manhaj2\minijogo\minijogo\obj\Debug\net9.0\minijogo.pdb
+C:\Users\ALUNO.LABCHARURI\Desktop\manhaj2\minijogo\minijogo\obj\Debug\net9.0\minijogo.genruntimeconfig.cache
+C:\Users\ALUNO.LABCHARURI\Desktop\manhaj2\minijogo\minijogo\obj\Debug\net9.0\ref\minijogo.dll
