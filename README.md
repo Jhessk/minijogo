@@ -122,9 +122,29 @@ class Program
 
         Console.Write("Digite o ID do produto: ");
         int idAtualizar;
-        while (!int.TryParse(Console.ReadLine(), out idAtualizar));
+        while (!int.TryParse(Console.ReadLine(), out idAtualizar)) ;
         {
-            Console.WriteLine("Id inválido");   
+            Console.WriteLine("Id inválido");
         }
+
+        Produto produtoExistente = produtos.Find(p => p.Id == idAtualizar);
+
+        if (produtoExistente == null)
+        {
+            Console.WriteLine($"O produto {idAtualizar} não encontrado");
+            return;
+        }
+
+        Console.WriteLine($"Produtos encontrado: ");
+        produtoExistente.ExibirInfo();
+            
+
     }
+
+    static void ExcluirProduto()
+    {
+        Console.WriteLine("--- Excluir Produto ---");
+        Console.Write("")
+    }
+}
 
