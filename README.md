@@ -46,6 +46,85 @@ class Program
 
             string opcao = Console.ReadLine();
 
+            switch (opcao)
+            {
+                case "1":
+                    CriarProduto();
+                    break;
+                case "2":
+                    ListarProdutos();
+                    break;
+                case "3":
+                    AtualizarProduto();
+                    break;
+                case "4":
+                    ExcluirProduto();
+                    break;
+                case "5":
+                    rodando = false;
+                    Console.WriteLine("to saindo");
+                    break;
+                default:
+                    Console.WriteLine("Opção inválida! Tente novamente");
+                    break;
+            }
+
+            Console.WriteLine("\nPressione qualquer tecla pra continuar...");
+            Console.ReadKey();
+
         }
     }
-}
+
+    static void CriarProduto()
+    {
+        Console.WriteLine("--- Criar novo produto ---");
+
+        Console.Write("Nome: ");
+        string nome = Console.ReadLine();
+
+        Console.Write("Preço: ");
+        decimal preco;
+        while (!decimal.TryParse(Console.ReadLine(), out preco) || preco < 0)
+        {
+            Console.WriteLine("Preço inválido. Digite um valor positivo: ");
+        }
+        Console.Write("Estoque: ");
+        int estoque;
+        while (!int.TryParse(Console.ReadLine(), out estoque) || estoque < 0)
+        {
+            Console.WriteLine("Estoque inválido. Digite um valor positivo: ");
+        }
+
+        Produto novoProduto = new Produto(proximoId++, nome, preco, estoque);
+        produtos.Add(novoProduto);
+        Console.WriteLine($"Produto: '{novoProduto.Nome}' (ID: {novoProduto.Id}) criado com sucesso");
+    }
+
+    static void ListarProdutos()
+    {
+        Console.WriteLine("--- Listar Produtos ---");
+
+        if (produtos.Count == 0)
+        {
+            Console.WriteLine("nenhum produto cadastrado");
+            return;
+        }
+
+        foreach (var produto in produtos)
+        {
+            produto.ExibirInfo();
+        }
+    }
+
+    static void AtualizarProduto()
+    {
+        Console.WriteLine("--- Atualizar Produtos ---");
+
+        Console.Write("Digite o ID do produto: ");
+        int idAtualizar;
+        while (!int.TryParse(Console.ReadLine(), out idAtualizar));
+        {
+            Console.WriteLine("Id inválido");   
+        }
+    }
+
