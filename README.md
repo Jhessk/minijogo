@@ -8,6 +8,7 @@ using System.Linq; // Necessaria  para (Find, where)
 // Produto.cs
 
 public class Produto
+
 {
     public int Id { get; set; }
     public string Nome { get; set; }
