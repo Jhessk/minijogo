@@ -144,7 +144,22 @@ class Program
     static void ExcluirProduto()
     {
         Console.WriteLine("--- Excluir Produto ---");
-        Console.Write("")
+        Console.Write("Digite o ID produto");
+        int idExcluir;
+        while (!int.TryParse(Console.ReadLine(), out idExcluir)) ;
+        {
+            Console.WriteLine("ID inválido");
+        }
+
+        Produto produtoRemover = produtos.Find(p => p.Id == idExcluir);
+
+        if (produtoRemover == null)
+        {
+            Console.WriteLine($"O produto {idExcluir} não encontrado");
+            return;
+        }
+
+        produtos.Remove(produtoRemover);
+        Console.WriteLine($"Produtos '{produtoRemover.Nome}' (Id: {produtoRemover.Id}) excluido comsucesso");
     }
 }
-
