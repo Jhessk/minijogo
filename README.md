@@ -1,14 +1,11 @@
 using System;
-
 using System.Collections.Generic; //Necessaria para List <T>
-
 using System.Linq; // Necessaria  para (Find, where)
 
 
 // Produto.cs
 
 public class Produto
-
 {
     public int Id { get; set; }
     public string Nome { get; set; }
@@ -40,7 +37,9 @@ class Program
         {
             Console.Clear(); //limpa a tela do console
             Console.WriteLine("--- Gerenciador de Produtor");
+            Console
             
+
         }
     }
 }
