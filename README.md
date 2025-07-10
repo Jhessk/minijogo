@@ -37,8 +37,14 @@ class Program
         {
             Console.Clear(); //limpa a tela do console
             Console.WriteLine("--- Gerenciador de Produtor");
-            Console
-            
+            Console.WriteLine("1 - Criar Produtos");
+            Console.WriteLine("2 - Listar  Produtos");
+            Console.WriteLine("3 - Atualizar Produtos");
+            Console.WriteLine("4 - Excluir Produtos");
+            Console.WriteLine("5 - Sair");
+            Console.WriteLine("Escolha uma opção: ");
+
+            string opcao = Console.ReadLine();
 
         }
     }
