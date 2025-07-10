@@ -1,5 +1,7 @@
 using System;
+
 using System.Collections.Generic; //Necessaria para List <T>
+
 using System.Linq; // Necessaria  para (Find, where)
 
 
